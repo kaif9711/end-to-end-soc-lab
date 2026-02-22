@@ -1,15 +1,15 @@
-🛡️ End-to-End SOC Lab: Attack Simulation, Detection, Mitigation & SIEM Monitoring
-📌 Executive Summary
+# 🛡️ End-to-End SOC Lab: Attack Simulation, Detection, Mitigation & SIEM Monitoring📌 
 
+## 📌 Executive Summary
 This project demonstrates a complete Security Operations Center (SOC) workflow in a controlled virtualized lab environment. The objective was to simulate real-world cyber attacks, detect malicious activity through log analysis, apply mitigation strategies, and validate security improvements using centralized monitoring.
 
 The lab successfully detected SSH brute-force attempts, anonymous FTP exploitation, SMB enumeration, and Windows brute-force attacks, while implementing defensive controls and integrating logs into a SIEM platform for enterprise-style monitoring.
 
-🖥️ Lab Architecture
+## 🖥️ Lab Architecture
 
 The environment was built using VirtualBox to simulate a segmented corporate LAN.
 
-🔹 Systems Deployed
+### 🔹 Systems Deployed
 
 Kali Linux – Attacker + SIEM Access
 
