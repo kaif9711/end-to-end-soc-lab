@@ -23,7 +23,7 @@ Network segmentation was implemented using an isolated internal network with WAN
 
 Note: Large ISO files are intentionally excluded from this repository due to GitHub size limitations. The lab can be recreated using official Kali, Ubuntu, Windows, and OPNsense images.
 
-##🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 VirtualBox (Virtualization)
 
@@ -45,7 +45,7 @@ Linux Authentication Logs (/var/log/auth.log)
 
 Splunk Enterprise / Splunk Cloud (Centralized SIEM Monitoring via Kali)
 
-##📍 Project Phases
+## 📍 Project Phases
 ###🔎 Phase 1: Visibility & Asset Discovery
 
 Verified IP addressing scheme
@@ -60,7 +60,7 @@ Created baseline network topology
 
 Outcome: Achieved full visibility of internal assets and attack surface.
 
-###🔐 Phase 2: Baseline Security & Logging
+### 🔐 Phase 2: Baseline Security & Logging
 
 Enabled firewall logging in OPNsense
 
@@ -74,7 +74,7 @@ Established normal traffic baseline
 
 Outcome: Confirmed logging visibility before attack simulation.
 
-###🧪 Phase 3: Vulnerability Assessment
+### 🧪 Phase 3: Vulnerability Assessment
 Ubuntu Findings:
 
 Anonymous FTP Login (Medium)
@@ -95,7 +95,7 @@ OpenVAS scans validated exposed services and misconfigurations.
 
 Outcome: Identified and documented security weaknesses for remediation.
 
-###🚨 Phase 4: Incident Simulation & Response
+### 🚨 Phase 4: Incident Simulation & Response
 🔹 Attacks Simulated
 
 SSH brute-force attack using Hydra
@@ -146,7 +146,7 @@ Patch management
 
 Outcome: Validated attack detection, applied mitigation, and confirmed improved security posture.
 
-###📊 Phase 5: SIEM Integration & Advanced Monitoring
+### 📊 Phase 5: SIEM Integration & Advanced Monitoring
 🔹 Log Ingestion
 
 Installed Splunk Forwarder on Ubuntu and Windows
@@ -185,7 +185,7 @@ Indexed Events:
 
 Outcome: Achieved centralized SOC-style log monitoring and threat visibility.
 
-##📊 Risk Summary
+## 📊 Risk Summary
 Vulnerability	Severity	Remediation Status
 Anonymous FTP Login	Medium	Mitigated
 FTP Cleartext Login	Medium	Mitigated
