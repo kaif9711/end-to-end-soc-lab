@@ -185,24 +185,3 @@ Indexed Events:
 
 Outcome: Achieved centralized SOC-style log monitoring and threat visibility.
 
-## 📊 Risk Summary
-Vulnerability	Severity	Remediation Status
-Anonymous FTP Login	Medium	Mitigated
-FTP Cleartext Login	Medium	Mitigated
-SMB Enumeration Exposure	Medium	Recommended Mitigation
-ICMP Timestamp Disclosure	Low	Accepted Risk
-🎯 Key Learning Outcomes
-
-Practical SOC workflow implementation
-
-Log correlation across Linux, Windows, and Firewall systems
-
-Brute-force detection and mitigation strategies
-
-Vulnerability assessment and risk evaluation
-
-Endpoint monitoring using Sysmon
-
-SIEM-based detection engineering
-
-Incident lifecycle validation
